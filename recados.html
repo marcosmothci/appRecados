@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Meus Recados</h1>
+    <form id="noteForm">
+        <input type="text" name="noteTitle" id="noteTitle" placeholder="Título">
+        <input type="text" name="noteText" id="noteText" placeholder="Texto">
+        <button id="saveNotes" type="button" onclick="saveNote()">Salvar</button>        
+    </form> <br>
+    <div id="noteList">
+        <table id="noteTable">
+            <tbody>
+                <tr>
+                    <td id="tdID"> ID</td>
+                    <td id="tdTitle">Título</td>
+                    <td id="tdText">Texto</td>
+                    <td id="tdBtns">Ação</td>
+                </tr>               
+            </tbody>
+        </table>
+    </div>
+    <button id="exit" onclick="logout()">Sair</button>
+    <script src="./recados.js"></script>
+</body>
+</html>

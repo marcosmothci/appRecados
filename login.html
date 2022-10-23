@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>codeMarcos.Recados</title>
+</head>
+<body>
+    <main>
+        <form id="loginForm">
+        <fieldset id="fsLogin">
+            <legend>LOGIN</legend>
+            <label for="emailLogin">E-mail:</label>
+            <input type="email" name="emailLogin" id="emailLogin" placeholder="digite seu e-mail"> <br>
+            
+            <label for="loginPass">Senha:</label>
+            <input type="password" name="loginPass" id="loginPass" placeholder="digite sua senha"> <br>
+        </fieldset>
+        <button type="button" id="entrar" onclick="login()">Entrar </button> 
+        <button type="reset">Limpar </button>
+    </form>
+        <p>Ainda não tem conta? <a href="./cadastro.html">CADASTRE-SE JÁ!</a></p>
+    </main>
+    <script src="login.js"></script>
+</body>
+</html>

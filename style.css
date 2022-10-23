@@ -1,0 +1,92 @@
+* {    
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:rgb(68, 214, 10);
+    border-collapse: collapse;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+ fieldset{
+    border: 3px solid rgb(68, 214, 10);
+    width: 25vw;
+}
+
+#fsLogin > input, #fsCad > input {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+tbody, td, input{
+    border: 3px solid rgb(68, 214, 10);
+    color: rgb(68, 214, 10);
+}
+
+#tdID{
+    min-width: 6vw;
+    width: 8vw;
+    max-width: 10vw;
+}
+
+#tdTitle{
+    min-width: 20vw;
+    max-width: 30vw;
+}
+
+#tdText{
+    min-width: 35vw;
+    max-width: 50vw;
+}
+
+#tdBtns{
+    width: 5vw;
+    
+}
+
+button {
+    background-color: rgb(68, 214, 10);
+    color:black;    
+    border-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 3px
+}
+
+::placeholder {
+    color:rgb(68, 214, 10)
+}
+
+#noteTable tr:not(:first-child):hover td {
+    background-color:rgb(68, 214, 10);
+    color: black;
+    border-color: black;
+}
+
+input:focus {
+    background-color:rgb(68, 214, 10);
+    color: black
+}
+
+#deleteBtn{
+    background-color: red;
+}
+
+#updateBtn{
+    background-color: yellow;
+}
+
+button:hover{
+   border-color: black;
+}
+
+
+body{
+   /*  display: flex; */
+    width: 100vw;
+    height: 100vh;
+}

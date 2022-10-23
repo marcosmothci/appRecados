@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Faça já o seu cadastro! </title>
+</head>
+<body>
+    <form id="registerForm">
+    <fieldset id="fsCad">
+        <legend>CADASTRE-SE</legend>
+        <label for="userID">E-mail:</label>
+        <input type="email" name="userID" id="userID" placeholder="informe seu e-mail"> <br>
+        <label for="pass">Senha: </label>
+        <input type="password" name="pass" id="pass" placeholder="escolha uma senha"> <br>
+        <input type="password" name="passRepeat" id="passRepeat" placeholder="repita a senha">
+    </fieldset>
+    <button type="button" id="registerBtn" onclick="register()">Cadastrar</button>
+    <button type="reset">Cancelar</button>
+    <p>Já tem conta? <a href="./login.html">FAÇA O LOGIN PARA ENTRAR!</a> </p>
+    </form>
+    
+
+    <script src="cadastro.js"></script>
+</body>
+</html>
